@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>会社概要 - START</title>
+
+    <link rel="stylesheet" href="css/ress.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/companystyle.css" />
+    <link
+      rel="icon"
+      href="img/favicon-16x16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="img/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="img/favicon-96x96.png"
+      sizes="96x96"
+      type="image/png"
+    />
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dawning+of+a+New+Day&family=Noto+Serif+JP:wght@200..900&family=Oooh+Baby&family=Paytone+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dawning+of+a+New+Day&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Oooh+Baby&family=Paytone+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <a href="#"> <img src="img/logo.svg" alt="" /></a>
+      </div>
+      <div class="header-right">
+        <nav class="header-right__nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list__item">
+              <a href="index.html">ホーム</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="message.html">メッセージ</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a class="pink" href="company.html">会社概要</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <button class="hamburger-menu-btn" type="button">
+        <span class="hamburger-menu-bar"></span>
+        <span class="hamburger-menu-bar"></span>
+        <span class="hamburger-menu-bar"></span>
+      </button>
+    </header>
+
+    <main class="main">
+      <div class="heder-visual">
+        <picture>
+          <source srcset="img/pc_header.png" media="(min-width:769px)" />
+          <img class="header-visual__img" src="img/sp_sub-header.png" alt="" />
+        </picture>
+        <h1 class="header-visual__title">会社概要</h1>
+      </div>
+
+      <section class="company">
+        <div class="inner">
+          <dl class="company-detail">
+            <dt class="company-detail__name">社名</dt>
+            <dd class="company-detail__text">株式会社START</dd>
+            <dt class="company-detail__name">設立</dt>
+            <dd class="company-detail__text">2025.02.10</dd>
+            <dt class="company-detail__name">代表取締役</dt>
+            <dd class="company-detail__text">ショーン・デイビット・ジュニア</dd>
+            <dt class="company-detail__name">資本金</dt>
+            <dd class="company-detail__text">10,000,000円</dd>
+            <dt class="company-detail__name">所在地</dt>
+            <dd class="company-detail__text">
+              〒555-5555 東京都千代田区 スタートビルディング 606
+            </dd>
+          </dl>
+
+          <div class="map">
+            <iframe
+              class="googleMap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12966.73123652731!2d139.72991124230694!3d35.66018575746312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9c2ef8e6c3%3A0xff8de5eeddcd1e17!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yV5LiB55uu!5e0!3m2!1sja!2sjp!4v1758070835597!5m2!1sja!2sjp"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <a
+              class="map__link"
+              href="https://maps.app.goo.gl/3ssz7xMiGCF5JFSB8"
+              >Google mapで見る</a
+            >
+          </div>
+
+          <ul class="news-list">
+            <li class="news-list__item">
+              <a class="news-list__link" href="company.html">
+                <time class="news-list__date" datetime="2030-02-10"
+                  >2030.02.10</time
+                >
+                <p class="news-list__text">
+                  コーポレートサイトをリニューアルしました。
+                </p>
+              </a>
+            </li>
+            <li class="news-list__item">
+              <a class="news-list__link" href="company.html">
+                <time class="news-list__date" datetime="2030-02-08"
+                  >2030.02.08</time
+                >
+                <p class="news-list__text">
+                  採用を強化中です！一緒に働きませんか？
+                </p>
+              </a>
+            </li>
+            <li class="news-list__item">
+              <a class="news-list__link" href="company.html">
+                <time class="news-list__date" datetime="2030-02-02"
+                  >2030.02.02</time
+                >
+                <p class="news-list__text">
+                  人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav-list__item">
+              <a class="footer-nav-list__link" href="index.html">ホーム</a>
+            </li>
+            <li class="footer-nav-list__item">
+              <a class="footer-nav-list__link" href="message.html"
+                >メッセージ</a
+              >
+            </li>
+            <li class="footer-nav-list__item">
+              <a class="footer-nav-list__link" href="company.html">会社概要</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="copyright">&copy;START</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
